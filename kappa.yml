@@ -1,0 +1,17 @@
+---
+name: slack-lambda-retro
+environments:
+  dev:
+    profile: lambda_deploy
+    region: ap-southeast-2
+    policy:
+      resources:
+        - arn: arn:aws:logs:*:*:*
+          actions:
+            - "*"
+lambda:
+  description: A Retro AWS lambda Bot
+  handler: handler.lambda_handler
+  runtime: python2.7
+  memory_size: 512
+  timeout: 10

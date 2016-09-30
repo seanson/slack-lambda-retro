@@ -1,0 +1,15 @@
+boto3==1.4.0
+botocore==1.4.48
+click==6.6
+docutils==0.12
+dotenv==0.0.5
+futures==3.0.5
+jmespath==0.9.0
+kappa==0.6.0
+nltk==3.2.1
+placebo==0.8.1
+python-dateutil==2.5.3
+PyYAML==3.11
+requests==2.11.1
+s3transfer==0.1.2
+six==1.10.0

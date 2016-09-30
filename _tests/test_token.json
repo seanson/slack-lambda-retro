@@ -1,0 +1,5 @@
+{
+    "token": "${slack_token}",
+    "challenge": "${slack_challenge_string}",
+    "type": "url_verification"
+}

@@ -1,0 +1,17 @@
+{
+  "api_app_id": "${slack_app_id}",
+  "authed_users": [
+    "U0L567T7Y"
+  ],
+  "team_id": "${slack_team_id}",
+  "token": "${slack_verification_token}",
+  "type": "event_callback",
+  "event": {
+    "event_ts": "1475158689.000123",
+    "text": "${slack_sample_text}",
+    "ts": "1475158689.000123",
+    "user": "U0L567T7Y",
+    "type": "message",
+    "channel": "${slack_channel_id}"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "api_app_id": "${slack_app_id}",
+  "authed_users": [
+    "U24F40RGS"
+  ],
+  "token": "${slack_verification_token}",
+  "team_id": "${slack_team_id}",
+  "type": "event_callback",
+  "event": {
+    "reaction": "+1",
+    "event_ts": "1474806174.505900",
+    "item": {
+      "type": "message",
+      "ts": "1475158689.000123",
+      "channel": "C0L55SU9Y"
+    },
+    "user": "U0L567T7Y",
+    "item_user": "U0L567T7Y",
+    "type": "reaction_added"
+  }
+}

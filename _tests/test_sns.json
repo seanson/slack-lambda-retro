@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "EventVersion": "1.0",
+      "EventSource": "aws:sns",
+      "EventSubscriptionArn": "${EventSubscriptionArn}",
+      "Sns": {
+        "MessageId": "25596150-0fe2-53cf-8bd1-3137487bceec",
+        "Signature": "OcMbWJKEknEo33d7SJ01ARYQuDBU8FKpu7Tgcmi6gJEhqNLlKS73XF2Cd0cXwIjMX549AvSpmYprGZ46VfAk4o9XgUiz/SECG6xDlyoSGkxnjxqlgIgwT/phyuOAx5LPTox94gVPcRbuzyW0LHYEddpuvrIlZI6nflYoi5XH/Pnuuyr7hi64gOYsVnQYpM1ZGn88SPVAFVZfxbqjl+TcP459XsqhMyLDfQKjpKkgV5OjMIGYwWBUFK1KeLiTQuGdwHzEXWafp4zrOTV5eZietsh1dsI+v5z6iYfIK7WmwaQHvsnZlWEgb5mdgzVlIYiwAXahw0JtOPwL692/Ma4x4A==",
+        "Type": "Notification",
+        "TopicArn": "${topicArn}",
+        "MessageAttributes": {},
+        "SignatureVersion": "1",
+        "Timestamp": "2016-09-29T16:46:17.076Z",
+        "SigningCertUrl": "https://sns.ap-southeast-2.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem",
+        "Message": "{\"api_app_id\": \"#{slack_app_id}\", \"authed_users\": [\"U0L567T7Y\"], \"token\": \"${slack_verification_token}\", \"team_id\": \"${slack_team_id}\", \"type\": \"event_callback\", \"event\": {\"event_ts\": \"1475158689.000123\", \"text\": \"asdf\", \"ts\": \"1475158689.000123\", \"user\": \"U0L567T7Y\", \"type\": \"message\", \"channel\": \"C2HCW5QRF\"}}",
+        "UnsubscribeUrl": "https://sns.ap-southeast-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=${EventSubscriptionArn}",
+        "Subject": null
+      }
+    }
+  ]
+}
